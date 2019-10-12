@@ -1,0 +1,31 @@
+
+<html>
+<body>
+
+<H1>HTML Table and HTML Coments</H1>
+
+<!-- This is my Exercise -->
+
+<table border="1" style="border:solid;">
+<tr>
+<td>Day1</td><td>Walking</td><td>30 Minutes</td>
+</tr>
+<tr>
+<td>Day 2</td><td>Swaming</td><td>45 Minutes</td>
+</tr>
+<tr>
+<td>Day 3</td><td>resting</td><td>500 minutes</td>
+</tr>
+
+<tr>
+<td>Day 4</td><td>resting</td><td>500 minutes</td>
+</tr>
+
+<tr>
+<td>Day 5</td><td>resting</td><td>500 minutes</td>
+</tr>
+
+</table>
+
+</body>
+</html>
