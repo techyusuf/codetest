@@ -1,0 +1,92 @@
+
+<html>
+<head>
+    <title>
+        
+    contact us</title></head>
+     <link rel="stylesheet" type ="text/css"
+          href="style3.css">
+    <script>
+    function fun()
+        {
+            
+                var  x=document.getElementById("name").value;
+            if(x==""){
+            alert("enter the name");
+                return false;
+            }
+            var y=document.getElementById("email").value;
+            if(y=="" ){
+                alert("please enter valid email address ");
+                return false;
+            }
+            var z=document.getElementById("number").value;
+            if(z==""){
+                alert("please enter your phone number ");
+                return false;
+            }
+            var m=document.getElementById("address").value;
+            if(m==""){
+                alert("type your address");
+                return false;
+            }
+            else{
+                alert("thanks for register"+document.getElementById("name").value);
+                
+            }
+            
+        }
+        
+  function myFunction() {
+  document.body.style.backgroundColor = "darkred";
+        }
+  function myFunction2() {
+  document.body.style.backgroundColor = "darkorchid";
+}
+    function myFunction3() {
+  document.body.style.backgroundColor ="orangered";
+}
+function myFunction4() {
+  document.body.style.backgroundColor = "aqua";
+}
+function myFunction5() {
+  document.body.style.backgroundColor = "chartreuse";
+}function myFunction6() {
+  document.body.style.backgroundColor = "deeppink";
+}
+</script>
+    <body>
+        <div class="navbar">
+            
+        <button type="button" id="red"  onclick="myFunction()"></button>
+<button type="button" id="darkorchid" onclick="myFunction2()"></button>
+<button type="button" id="orangered"  onclick="myFunction3()"></button>
+<button type="button" id="aqua" onclick="myFunction4()"></button>
+<button type="button" id="chartreuse"  onclick="myFunction5()"></button>
+<button type="button" id="deeppink" onclick="myFunction6()"></button><hr>
+            <h1 style="text-align: center">CONTACT US</h1>
+<form>
+        <div class="form2">
+        <center>
+    NAME:<br>
+        <input type="text" id="name" placeholder="enter your name" required><br>
+        EMAIL ADRESS:<br>
+        <input type="email" id="email" placeholder="enter your email" required><br>
+        
+   
+        ADDRESS:<br>
+        <input type="textarea" id="query" placeholder="enter your address" required><br>
+        CONTACT NUMBER:<br>
+        <input type="text" id="number" placeholder="enter your mobile number" height="10"><br>
+        AGE:<br>
+        <input type="number" id="age" placeholder="enter your age" min="18" max="60"><br>
+            <a href="home%20page2.html"></a><a href="mailto:nikhilch987654321@gmail.com"><input type="button" id="button" value="SUBMIT" onclick="fun()"></a>
+      
+            <input type="reset" value="RESET">
+
+            </center>
+            </div>
+        </form>
+        </div>
+       </body>
+</html>
